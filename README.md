@@ -12,15 +12,15 @@ A Windows tray application to **enable or disable Chrome Remote Desktop** with a
 
 1. **Clone the repository**
 
-   ```powershell
+   ```bash
    git clone https://github.com/ele-a-be/CRDTrayApp.git
    cd CRDTrayApp
 2. **Restore dependencies & build**
 
-    ```powershell
+    ```bash
     dotnet build -c Release
 The .exe file will be inside
-```cmd
+```bash
 ./bin/Release/net9.0-windows/
 ```
 &nbsp;  
